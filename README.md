@@ -14,17 +14,17 @@ Welcome to Booklet, an online bookstore web development project built using HTML
 Booklet is a virtual online bookstore created to demonstrate the core concepts of web development. This project focuses on providing a simple and intuitive platform for users to discover, search for, and purchase books from various genres.
 
 # Features:
-- Book Listings: Display a collection of books with cover images, titles, authors, and prices.
-- Book Details: View detailed information about a book by clicking on its listing.
-- Search Functionality: Search for specific books by title, author, or genre.
-- Shopping Cart: Add books to a shopping cart, view the cart, and adjust its contents.
-- Checkout Process: Simulate a checkout process with a form for user information.
-- Responsive Design: Utilize Bootstrap's responsive features to ensure a consistent experience across devices.
-- Interactive Elements: Implement interactive buttons, navigation, and modal dialogs to enhance user engagement.
+- **Book Listings:** Display a collection of books with cover images, titles, authors, and prices.
+- **Book Details:** View detailed information about a book by clicking on its listing.
+- **Search Functionality:** Search for specific books by title, author, or genre.
+- **Shopping Cart:** Add books to a shopping cart, view the cart, and adjust its contents.
+- **Checkout Process:** Simulate a checkout process with a form for user information.
+- **Responsive Design:** Utilize Bootstrap's responsive features to ensure a consistent experience across devices.
+- **Interactive Elements:** Implement interactive buttons, navigation, and modal dialogs to enhance user engagement.
 
 # Installation:
-- Clone the repository: git clone https://github.com/your-username/booklet.git
-- Navigate to the project directory: cd booklet
+- Clone the repository: git clone https://github.com/raunakmallick18/online_bookstore.git
+- Navigate to the project directory.
 
 # Usage:
 1. Open the index.html file in your web browser.
