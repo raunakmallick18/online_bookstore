@@ -30,7 +30,7 @@ Booklet is a virtual online bookstore created to demonstrate the core concepts o
 - Navigate to the project directory.
 
 # Usage:
-1. Open the index.html file in your web browser.
+1. Open the **index.html** file in your web browser.
 2. Browse through the collection of books, click on a book to view its details, and add books to your cart.
 3. Use the search bar to find specific books by title, author, or genre.
 4. Access the shopping cart by clicking on the cart icon in the navigation bar.
