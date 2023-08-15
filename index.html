@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> BOOKLET - Best Online Book Reading, Buying, Selling Website </title>
+    <link rel="icon" href="logo2.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans&family=Source+Sans+Pro:wght@300&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Nunito', sans-serif;
+        }
+        
+        .container {
+            max-width: 1170px;
+            margin: auto;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 70px 0;
+        }
+        
+        .footer {
+            background-color: #24262b;
+        }
+        
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .footer-col {
+            width: 25%;
+            padding: 0 15px;
+        }
+        
+        .footer-col h4 {
+            font-size: 18px;
+            color: #ffffff;
+            text-transform: capitalize;
+            margin-bottom: 35px;
+            font-weight: 500;
+            position: relative;
+        }
+        
+        .footer-col h4::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            background-color: #e91e63;
+            height: 2px;
+            box-sizing: border-box;
+            width: 50px;
+        }
+        
+        .footer-col ul li:not(:last-child) {
+            margin-bottom: 10px;
+        }
+        
+        .footer-col ul li a {
+            font-size: 16px;
+            text-transform: capitalize;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 300;
+            color: #bbbbbb;
+            display: block;
+            transition: all 0.5s ease;
+        }
+        
+        .footer-col ul li a:hover {
+            color: #ffffff;
+            padding-left: 10px;
+        }
+        
+        .footer-col ul li p {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 300;
+            color: #bbbbbb;
+            display: block;
+        }
+        
+        .footer-col .social-links a {
+            display: inline-block;
+            height: 40px;
+            width: 40px;
+            background-color: rgba(255, 255, 255, 0.2);
+            margin: 0 10px 10px 0;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+            color: #ffffff;
+        }
+        
+        .footer-col .social-links a:hover {
+            color: #24262b;
+            background-color: #ffffff;
+        }
+        
+        .search-bar {
+            width: 100%;
+            max-width: 700px;
+            background: #bbbbbb;
+            display: flex;
+            align-items: center;
+            border-radius: 50px;
+            padding: 10px 20px;
+        }
+        
+        .search-bar input {
+            background: transparent;
+            flex: 1;
+            border: 0;
+            outline: none;
+            padding: 20px 18px;
+            font-size: 18px;
+            color: #ffffff;
+        }
+        
+        .search-bar button i {
+            width: 25px;
+            color: #ffffff;
+        }
+        
+        .search-bar button {
+            border: 0;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            background: #82B440;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body id="top">
+    <div class="wrapper row0">
+        <div id="topbar" class="hoc clear">
+            <div class="fl_left">
+                <ul class="nospace inline pushright">
+                    <li><i class="fa fa-phone"></i> +91 9836590255</li>
+                    <li><i class="fa fa-envelope-o"></i> shopatbooklet@gmail.com</li>
+                </ul>
+            </div>
+            <div class="fl_right">
+                <ul class="faico clear">
+                    <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a class="faicon-whatsapp" href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper row1">
+        <header id="header" class="hoc clear">
+            <div id="logo" class="fl_left">
+                <a href="index.html"><img src="image.png"></a>
+            </div>
+            <div id="quickinfo" class="fl_right">
+                <form action="index.html/Search" method="get" class="search-bar">
+                    <input type="text" placeholder="Search Books, Authors..." name="q">
+                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+            </div>
+        </header>
+    </div>
+    <div class="wrapper row2">
+        <nav id="mainav" class="hoc clear">
+            <ul class="clear">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a class="drop" href="#">Categories</a>
+                    <ul>
+                        <li><a href="pages/literature.html">Literaure</a></li>
+                        <li><a href="pages/fiction.html">Fiction</a></li>
+                        <li><a href="pages/romance.html">Romance</a></li>
+                        <li><a href="pages/crime-thriller.html">Crime Thriller</a></li>
+                        <li><a href="pages/textbook.html">Textbook</a></li>
+                        <li><a href="pages/art.html">Art</a></li>
+                        <li><a href="pages/photography.html">Photography</a></li>
+                        <li><a href="pages/hindi-novels.html">Hindi Novels</a></li>
+                        <li><a href="pages/autobiography.html">Autobiography</a></li>
+                        <li><a href="pages/gk.html">General Knowledge</a></li>
+                        <li><a href="pages/sports.html">Sports</a></li>
+                        <li><a href="pages/comics.html">Comics</a></li>
+                        <li><a href="pages/pdf.html">PDF</a></li>
+                    </ul>
+                </li>
+                <li><a href="authors.html">Authors Panel</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="wrapper bgded overlay" style="background-image:url('https://thumbs.dreamstime.com/b/open-book-profit-icons-above-close-up-hd-video-big-concept-221172255.jpg');">
+        <div id="pageintro" class="hoc clear">
+            <article class="introtxt">
+                <h2 class="heading">Official Booklet - Online Bookstore</h2>
+                <p>Hey Book Lovers, Come Join This Book-Fam. Just Chill, Read & Enjoy!</p>
+                <footer>
+                    <ul class="nospace inline pushright">
+                        <li><a class="btn" href="login.html">LOGIN</a></li>
+                        <li><a class="btn inverse" href="register.html">REGISTER</a></li>
+                    </ul>
+                </footer>
+            </article>
+        </div>
+    </div>
+    <!--HEADER ROW 1-->
+    <div class="wrapper row4">
+        <div class="hoc container clear">
+            <ul class="nospace elements">
+                <li class="one_third first">
+                    <article>
+                        <figure><img src="https://bestlifeonline.com/wp-content/uploads/sites/3/2020/10/Harry-Potter-and-the-Chamber-of-Secrets-book-cover.jpg" alt="">
+                            <figcaption><a href="#">View Details &raquo;</a></figcaption>
+                        </figure>
+                        <div class="txtwrap">
+                            <h6 class="heading">Harry Potter and the Chamber of Secrets</h6>
+                            <h8><b>J. K. Rowling</b></h8>
+                            <p>Joanne Rowling CH OBE HonFRSE FRCPE FRSL, also known by her pen name J. K. Rowling, is a British author and philanthropist. She wrote a seven-volume children's fantasy series, Harry Potter, published from 1997 to 2007.&hellip;</p>
+                        </div>
+                    </article>
+                </li>
+                <li class="one_third">
+                    <article>
+                        <figure><img src="https://cdn.lifehack.org/wp-content/uploads/2015/03/1984.jpg" alt="">
+                            <figcaption><a href="#">View Details &raquo;</a></figcaption>
+                        </figure>
+                        <div class="txtwrap">
+                            <h6 class="heading">1984</h6>
+                            <h8><b>George Orwell</b></h8>
+                            <p>1984 is George Orwell’s dystopian and totalitarian world where fear, control and lies take over the lives of people. Look into the life of Winston Smith who struggles with his nature in a world where free will, individuality,
+                                and love are not allowed.&hellip;</p>
+                        </div>
+                    </article>
+                </li>
+                <li class="one_third">
+                    <article>
+                        <figure><img src="https://cdn.lifehack.org/wp-content/uploads/2015/03/h2g2-01-copy.png" alt="">
+                            <figcaption><a href="#">View Details &raquo;</a></figcaption>
+                        </figure>
+                        <div class="txtwrap">
+                            <h6 class="heading">The Hitchhiker’s Guide to the Galaxy</h6>
+                            <h8><b>Douglas Adams</b></h8>
+                            <p>Join human Arthur Dent on a great adventure across the galaxy in this book. Here, you will learn not to take the universe seriously and forget all the meanings you have in your life because everyone knows the real meaning of
+                                life is simply 42.&hellip;</p>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!--HEADER ROW 2-->
+    <div class="wrapper row4">
+        <div class="hoc container clear">
+            <ul class="nospace elements">
+                <li class="one_third first">
+                    <article>
+                        <figure><img src="https://img.theculturetrip.com/1440x/smart/wp-content/uploads/2017/08/9780330458535.jpg" alt="">
+                            <figcaption><a href="#">View Details &raquo;</a></figcaption>
+                        </figure>
+                        <div class="txtwrap">
+                            <h6 class="heading">The Palace of Illusions</h6>
+                            <h8><b>Chitra Banerjee</b></h8>
+                            <p>Chitra Banerjee Divakaruni’s award-winning novel retells the Hindu mythological epic Mahabharata from the perspective of Draupadi, its lead female character. Draupadi is famous for having married all five of the Pandava brothers
+                                – the protagonists of the Mahabharata – and is an ever present, central character through their journey into exile and war.&hellip;</p>
+                        </div>
+                    </article>
+                </li>
+                <li class="one_third">
+                    <article>
+                        <figure><img src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781647221263/stranger-things-the-ultimate-pop-up-book-9781647221263_hr.jpg" alt="">
+                            <figcaption><a href="#">View Details &raquo;</a></figcaption>
+                        </figure>
+                        <div class="txtwrap">
+                            <h6 class="heading">Stranger Things: The Ultimate Pop-up Book</h6>
+                            <h8><b>Netflix</b></h8>
+                            <p>Netflix’s Emmy Award–winning series Stranger Things has captivated the imaginations of millions of viewers all around the world. Now fans can experience the series like never before with stunning, pop-off-the-page re-creations
+                                of iconic moments from the show. Inside, readers will adventure alongside Eleven and Mike Wheeler, crack the Russian code with Steve Harrington at Scoops Ahoy, face off against the terrifying Demogorgon, and much more.
+                                &hellip;
+                            </p>
+                        </div>
+                    </article>
+                </li>
+                <li class="one_third">
+                    <article>
+                        <figure><img src="https://bestlifeonline.com/wp-content/uploads/sites/3/2020/10/The-Hobbit-book-cover.jpg?resize=500,774&quality=82&strip=all" alt="">
+                            <figcaption><a href="#">View Details &raquo;</a></figcaption>
+                        </figure>
+                        <div class="txtwrap">
+                            <h6 class="heading">The Hobbit</h6>
+                            <h8><b>J. R. R. Tolkien</b></h8>
+                            <p>This relatively brief novel set the stage for J.R.R. Tolkien's later work, The Lord of the Rings. In The Hobbit, or There and Back Again, we follow protagonist Bilbo Baggins and accompany him on a treasure hunt gone wrong.&hellip;</p>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="wrapper row3">
+        <main class="hoc container clear">
+            <div class="center btmspace-80">
+                <p class="nospace"><a href="index.html">BOOKLET</a></p>
+                <h2 class="heading font-x3">People's Most Favorite Categories</h2>
+            </div>
+            <div class="group center">
+                <article class="one_quarter first"><i class="icon fa fa-balance-scale"></i>
+                    <h4 class="font-x1 uppercase"><a href="pages/autobiography.html">Political Science</a></h4>
+                    <p>Political science is the scientific study of politics. It is a social science dealing with systems of governance and power, and the analysis of political activities, political thought, political behavior, and associated constitutions
+                        and laws.</p>
+                </article>
+                <article class="one_quarter"><i class="icon fa fa-bank"></i>
+                    <h4 class="font-x1 uppercase"><a href="pages/art.html">Arts & Culture</a></h4>
+                    <p> Arts & Culture is an online platform of high-resolution images and videos of artworks and cultural artifacts from partner cultural organizations throughout the world.</p>
+                </article>
+                <article class="one_quarter"><i class="icon fa fa-plane"></i>
+                    <h4 class="font-x1 uppercase"><a href="pages/photography.html">Travels & Places</a></h4>
+                    <p>Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can be one way or round trip.</p>
+                </article>
+                <article class="one_quarter"><i class="icon fa fa-graduation-cap"></i>
+                    <h4 class="font-x1 uppercase"><a href="pages/textbook.html">Educational</a></h4>
+                    <p>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, morals, beliefs, habits, and personal development. Education originated as transmission of cultural heritage from one generation to
+                        the next.</p>
+                </article>
+            </div>
+            <div class="clear"></div>
+        </main>
+    </div>
+    <!--1ST ROW-->
+    <div class="wrapper row0">
+        <div class="hoc container clear">
+            <ul class="nospace elements">
+                <li class="one_third first">
+                    <article class="center">
+                        <a href="#"><img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/The-Complete-Works-of-Swami-Vivekananda.jpg" alt=""></a>
+                        <div class="txtwrap">
+                            <h6 class="heading">THE COMPLETE WORKS OF SWAMI VIVEKANANDA</h6>
+                            <p>The Complete Works of Swami Vivekananda is an 8-volume set and contains all the books, lecture, discussions, prose, poetry, and letters written by Swami Vivekananda, a spiritual teacher who introduced Hindu philosophies such
+                                as Vedanta and Yoga to the Western world.&hellip;</p>
+                            <footer><a href="#">Read More &raquo;</a></footer>
+                        </div>
+                    </article>
+                </li>
+                <li class="one_third">
+                    <article class="center">
+                        <a href="#"><img src="https://images-na.ssl-images-amazon.com/images/I/91a97u0fSFL.jpg" alt=""></a>
+                        <div class="txtwrap">
+                            <h6 class="heading">MARVEL COMICS</h6>
+                            <h8><b>Stan Lee</b></h8>
+                            <p>Stan Lee was an American comic book writer, editor, publisher, and producer. He rose through the ranks of a family-run business called Timely Publications which would later become Marvel Comics.&hellip;</p>
+                            <footer><a href="#">Read More &raquo;</a></footer>
+                        </div>
+                    </article>
+                </li>
+                <li class="one_third">
+                    <article class="center">
+                        <a href="#"><img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F23%2F2022%2F03%2F16%2Fsea-of-tranquility-best-books-0422-2000.jpg" alt=""></a>
+                        <div class="txtwrap">
+                            <h6 class="heading">SEA OF TRANQUILITY</h6>
+                            <h8><b>Emily St. John Mandel</b></h8>
+                            <p>Sea of Tranquility by Emily St. John Mandel is a deeply imaginative novel spanning 500 years. It begins in 1912 with a British teenager's exile to Canada, hop- scotches through the 2020 pandemic, and moves on to the future,
+                                where a famous author, who lives on a moon colony, is visiting Earth for a book tour. &hellip;</p>
+                            <footer><a href="#">Read More &raquo;</a></footer>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <!--2ND ROW-->
+        <div class="wrapper row0">
+            <div class="hoc container clear">
+                <ul class="nospace elements">
+                    <li class="one_third first">
+                        <article class="center">
+                            <a href="#"><img src="https://i.insider.com/61dc60594ede320018b6d315?width=700&format=jpeg&auto=webp" alt=""></a>
+                            <div class="txtwrap">
+                                <h6 class="heading">THE MIDNIGHT LIBRARY</h6>
+                                <h8><b>Matt Haig</b></h8>
+                                <p>Nora Seed feels stuck in her life, bound to the choices she made that she still isn't sure were right. When Nora is ready to leave it all behind, she finds herself in a peculiar library, where each of the infinite books
+                                    offers a portal to a parallel world, showing her all the many ways her life could have been slightly or drastically different, had she made other decisions.&hellip;</p>
+                                <footer><a href="#">Read More &raquo;</a></footer>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="one_third">
+                        <article class="center">
+                            <a href="#"><img src="https://bestlifeonline.com/wp-content/uploads/sites/3/2020/10/Lord-of-the-Rings-cover.jpg" alt=""></a>
+                            <div class="txtwrap">
+                                <h6 class="heading">THE LORD OF THE RINGS</h6>
+                                <h8><b>J. R. R. Tolkien</b></h8>
+                                <p>The best-selling fantasy novel series, The Lord of the Rings, has only grown in popularity since it was released, spawning a veritable armada of films, theatre, music, artwork, video games, and even board games.&hellip;</p>
+                                <footer><a href="#">Read More &raquo;</a></footer>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="one_third">
+                        <article class="center">
+                            <a href="#"><img src="https://img.theculturetrip.com/wp-content/uploads/2017/08/great-indian-novel-shashi-tharoor-viking-press.jpg" alt=""></a>
+                            <div class="txtwrap">
+                                <h6 class="heading">THE GREAT INDIAN NOVEL</h6>
+                                <h8><b>Shashi Tharoor </b></h8>
+                                <p>This satirical novel by Shashi Tharoor recreates the Hindu epic Mahabharata within the context of the Indian Independence Movement and its following decades to become one of the most exciting reads in contemporary Indian
+                                    literature. &hellip;</p>
+                                <footer><a href="#">Read More &raquo;</a></footer>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <!--3RD ROW-->
+            <div class="wrapper row0">
+                <div class="hoc container clear">
+                    <ul class="nospace elements">
+                        <li class="one_third first">
+                            <article class="center">
+                                <a href="#"><img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/The-Room-on-the-Roof-Ruskin-Bond.jpg" alt=""></a>
+                                <div class="txtwrap">
+                                    <h6 class="heading">THE ROOM ON THE ROOF</h6>
+                                    <h8><b>Ruskin Bond</b></h8>
+                                    <p>The Room on the Roof is the story of an orphaned Anglo-Indian boy, Rusty, living in a European colony in Dehradun with his guardian Mr. Harrison, who wants him to stay away from Indians and groom him as a pure Englishman.&hellip;</p>
+                                    <footer><a href="#">Read More &raquo;</a></footer>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="one_third">
+                            <article class="center">
+                                <a href="#"><img src="https://cdn.mos.cms.futurecdn.net/CAprxLoDZFtRu2cZD5hiCM-1280-80.jpg.webp" alt=""></a>
+                                <div class="txtwrap">
+                                    <h6 class="heading">THE PUSH</h6>
+                                    <h8><b>Ashley Audrain</b></h8>
+                                    <p>If you're looking for a psychological drama about motherhood, Ashley Audrain's The Push takes readers inside the mind of main character Blythe who questions her relationship with her daughter when she's born, forcing
+                                        her to eventually confront some truths about herself. &hellip;</p>
+                                    <footer><a href="#">Read More &raquo;</a></footer>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="one_third">
+                            <article class="center">
+                                <a href="#"><img src="https://img1.od-cdn.com/ImageType-100/13658-1/%7B54C334D9-D52F-4FFB-B7D3-70E761638317%7DImg100.jpg" alt=""></a>
+                                <div class="txtwrap">
+                                    <h6 class="heading">RABINDRANATH TAGORE - SHORT STORIES</h6>
+                                    <p>"Love does not claim possession, but gives freedom." A compilation of the Nobel laureates literary masterpieces, this edition contains the English translations of his Ten classic short stories namely The Kabuliwalah,
+                                        The Home-Coming, Once There was a King, The Child's Return, Master Mashai, Subha, The Postmaster, The Castaway, The Son Of Rashmani & The Babus Of Nayanjore.&hellip;</p>
+                                    <footer><a href="#">Read More &raquo;</a></footer>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                <!--4TH ROW-->
+                <div class="wrapper row0">
+                    <div class="hoc container clear">
+                        <ul class="nospace elements">
+                            <li class="one_third first">
+                                <article class="center">
+                                    <a href="#"><img src="https://bestlifeonline.com/wp-content/uploads/sites/3/2020/10/She-A-History-of-Adventure-book-cover.jpg?resize=500,750&quality=82&strip=all" alt=""></a>
+                                    <div class="txtwrap">
+                                        <h6 class="heading">SHE: A HISTORY OF ADVENTURE</h6>
+                                        <h8><b>H. Rider Haggard</b></h8>
+                                        <p>Perhaps the most popular novel you've never heard of, She: A History of Adventure follows a professor and his colleague on a journey prompted by a shard of ancient pottery. While She is sometimes credited for a
+                                            progressive view of women for its time, it also enforces ideas of racial superiority.&hellip;</p>
+                                        <footer><a href="#">Read More &raquo;</a></footer>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="one_third">
+                                <article class="center">
+                                    <a href="#"><img src="https://bestlifeonline.com/wp-content/uploads/sites/3/2020/10/Harry-Potter-and-the-Prisoner-of-Azkaban-book-cover.jpg?resize=500,761&quality=82&strip=all" alt=""></a>
+                                    <div class="txtwrap">
+                                        <h6 class="heading">HARRY POTTER AND THE PRISONER OF AZKABAN</h6>
+                                        <h8><b>J. K. Rowling</b></h8>
+                                        <p>During the third part of the series, Harry Potter and the Prisoner of Azkaban, Harry is put in danger when someone from his past escapes a high-security wizarding prison, while Dementors threaten the well-being
+                                            of students at Hogwarts.&hellip;</p>
+                                        <footer><a href="#">Read More &raquo;</a></footer>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="one_third">
+                                <article class="center">
+                                    <a href="#"><img src="https://bestlifeonline.com/wp-content/uploads/sites/3/2020/10/Watership-Down-book-cover.jpg?resize=500,762&quality=82&strip=all" alt=""></a>
+                                    <div class="txtwrap">
+                                        <h6 class="heading">WATERSHIP DOWN </h6>
+                                        <h8><b>Richard Adams</b></h8>
+                                        <p>Another much-assigned novel for high school students, Watership Down is an allegory heavy with meaning, starring…a warren full of rabbits, who develop their own intricate society. &hellip;</p>
+                                        <footer><a href="#">Read More &raquo;</a></footer>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--FOOTER-->
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4>Information</h4>
+                            <ul>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="founder.html">About Founder</a></li>
+                                <li><a href="#">Wholesale</a></li>
+                                <li><a href="#">Terms of Use & Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Get Help</h4>
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="cart.html">Shipping</a></li>
+                                <li><a href="#">Order Status</a></li>
+                                <li><a href="#">Return</a></li>
+                                <li><a href="payment.html">Payment Method</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Our Contacts</h4>
+                            <ul>
+                                <li>
+                                    <p><i class="fa fa-location-arrow" aria-hidden="true"></i> 32-B Taki Road,<br>Champadali More,<br>Barasat, Kolkata-700124</p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-envelope" aria-hidden="true"></i> shopatbooklet.in@gmail.com</p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-phone" aria-hidden="true"></i> 91-9836590255</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Follow Us</h4>
+                            <div class="social-links">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+            <div class="wrapper row5">
+                <div id="copyright" class="hoc clear">
+                    <p class="fl_left">Copyright &copy; 2022 - All Rights Reserved - <a href="#">booklet.in</a></p>
+                </div>
+            </div>
+
+            <script src="layout/scripts/jquery.min.js"></script>
+            <script src="layout/scripts/jquery.backtotop.js"></script>
+            <script src="layout/scripts/jquery.mobilemenu.js"></script>
+
+            <script src="layout/scripts/jquery.placeholder.min.js"></script>
+
+</body>
+
+</html>
