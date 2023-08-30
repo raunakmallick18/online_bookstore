@@ -1,5 +1,3 @@
-# online_bookstore
-
 # Booklet - Online Bookstore
 Welcome to Booklet, an online bookstore web development project built using HTML, CSS, JavaScript, and Bootstrap. This project showcases the implementation of a virtual bookstore with a user-friendly interface, allowing users to explore and purchase books online.
 
