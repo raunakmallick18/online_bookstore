@@ -23,6 +23,9 @@ Booklet is a virtual online bookstore created to demonstrate the core concepts o
 - **Responsive Design:** Utilize Bootstrap's responsive features to ensure a consistent experience across devices.
 - **Interactive Elements:** Implement interactive buttons, navigation, and modal dialogs to enhance user engagement.
 
+# Screenshots:
+
+
 # Installation:
 - Clone the repository: git clone https://github.com/raunakmallick18/online_bookstore.git
 - Navigate to the project directory.
