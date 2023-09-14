@@ -25,6 +25,16 @@ Booklet is a virtual online bookstore created to demonstrate the core concepts o
 
 # Screenshots:
 
+![GitHub Logo](https://github.com/raunakmallick18/online_bookstore/blob/main/1.png)
+
+![GitHub Logo](https://github.com/raunakmallick18/online_bookstore/blob/main/2.png)
+
+![GitHub Logo](https://github.com/raunakmallick18/online_bookstore/blob/main/3.png)
+
+![GitHub Logo](https://github.com/raunakmallick18/online_bookstore/blob/main/4.png)
+
+![GitHub Logo](https://github.com/raunakmallick18/online_bookstore/blob/main/5.png)
+
 
 # Installation:
 - Clone the repository: git clone https://github.com/raunakmallick18/online_bookstore.git
